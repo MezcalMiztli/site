@@ -9,18 +9,18 @@
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 14pt;
+		font-size: 0.98em;
 		font-weight: _font(weight);
 		line-height: 2;
 		letter-spacing: _size(letter-spacing);
 		text-transform: uppercase;
 
 		@include breakpoint('<=xlarge') {
-			font-size: 11pt;
+			font-size: 0.98em;
 		}
 
 		@include breakpoint('<=xsmall') {
-			font-size: 10pt;
+			font-size: 0.98em;
 			line-height: 1.75;
 		}
 	}
@@ -46,7 +46,8 @@
 	}
 
 	strong, b {
-		color: _palette(fg-bold);
+		  color: _palette(fg-bold);
+      font-weight: bold;
 	}
 
 	em, i {
@@ -117,3 +118,7 @@
 		border-bottom: solid _size(border-width) _palette(border);
 		margin: (_size(element-margin) * 2) 0;
 	}
+
+  .hero__title {
+      font-size: 1.3em;
+  }

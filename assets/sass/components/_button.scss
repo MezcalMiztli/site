@@ -61,3 +61,12 @@
 			opacity: 0.5;
 		}
 	}
+
+  .hero__cta {
+      background: #333;
+      color: _palette(bg) !important;
+      font-weight: bold;
+      border-radius: 29px;
+      width: 15em;
+      font-size: 1.3em;
+  }
