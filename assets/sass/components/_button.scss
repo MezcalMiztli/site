@@ -64,10 +64,10 @@
 
   .hero__cta {
 	    font-family: _font(family);
-      background: #333;
-      color: _palette(bg) !important;
-      font-weight: 800;
+      color: black !important;
+      font-weight: bold;
       border-radius: 29px;
       width: 15em;
       font-size: 1.3em;
+      border: 2px solid _palette(fg);
   }
