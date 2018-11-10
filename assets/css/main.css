@@ -644,7 +644,7 @@ button,
   border: 2px solid #414f57; }
 
 /* Main */
-#main {
+#main, content {
   -moz-transform-origin: 50% 50%;
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
@@ -666,16 +666,16 @@ button,
   position: relative;
   text-align: center;
   width: 70vw; }
-  #main .avatar {
+  #main .avatar, content .avatar {
     position: relative;
     display: block;
     margin-bottom: 1.5em; }
-    #main .avatar img {
+    #main .avatar img, content .avatar img {
       display: block;
       margin: 0 auto;
       border-radius: 100%;
       box-shadow: 0 0 0 1.5em #ffffff; }
-    #main .avatar:before {
+    #main .avatar:before, content .avatar:before {
       content: '';
       display: block;
       position: absolute;
@@ -686,16 +686,16 @@ button,
       z-index: -1;
       background: #c8cccf; }
   @media screen and (max-width: 480px) {
-    #main {
+    #main, content {
       padding: 1em 2em 0.1em 2em ;
       width: 100%; }
-      #main .avatar:before {
+      #main .avatar:before, content .avatar:before {
         left: -2em;
         width: calc(100% + 4em); } }
-  #main content {
-    padding: 7em 3em 5.5em 3em ;
+  #main content, content content {
+    padding: 7em 0em 5.5em 0em ;
     display: block; }
-  body.is-preload #main {
+  body.is-preload #main, body.is-preload content {
     -moz-transform: rotateX(15deg);
     -webkit-transform: rotateX(15deg);
     -ms-transform: rotateX(15deg);

@@ -6,7 +6,7 @@
 
 /* Main */
 
-	#main {
+	#main, content {
 		@include vendor('transform-origin', '50% 50%');
 		@include vendor('transform', 'rotateX(0deg)');
 		@include vendor('transition', (
@@ -61,7 +61,7 @@
 		}
 
     content {
- 		    @include padding(7em, 3em);
+ 		    @include padding(7em, 0em);
         display: block;
     }
 
