@@ -635,9 +635,10 @@ button,
     opacity: 0.5; }
 
 .hero__cta {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   background: #333;
   color: #ffffff !important;
-  font-weight: bold;
+  font-weight: 800;
   border-radius: 29px;
   width: 15em;
   font-size: 1.3em; }
@@ -686,7 +687,7 @@ button,
       background: #c8cccf; }
   @media screen and (max-width: 480px) {
     #main {
-      padding: 4em 2em 2.5em 2em ;
+      padding: 1em 2em 0.1em 2em ;
       width: 100%; }
       #main .avatar:before {
         left: -2em;
